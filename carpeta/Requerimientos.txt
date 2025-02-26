@@ -47,6 +47,3 @@
     
     - El cliente puede asistir a cualquier sucursal de la empresa.
     - El cliente puede agendar turnos Recreativos de cualquier sucursal de la empresa.
-
-
-    test
