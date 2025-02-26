@@ -6,6 +6,15 @@
     
     El sistema debe segmentar las actividades que realiza el gimnasio. Principalmente, va a estar segmentado por dos partes: Musculaciï¿½n y Recreativo.
     
+<<<<<<< HEAD
+    - El sistema debe mostrar una rutina de ejercicios a los usuarios que estén registrados a actividades de Musculación y tengan una rutina asignada.
+        - El sistema debe contener un listado de ejercicios segmentado por los distintos grupos musculares.
+        - El sistema debe permitir definir la cantidad de repeticiones y series que se debe realizar en cada ejercicio.
+        - El sistema debe aclarar el elemento de gimnasio que se debe utilizar para realizar dicho ejercicio.
+        - El sistema debe permitir al usuario visualizar únicamente la/s rutina de ejercicios que tiene asignada.
+        - El listado de ejercicios puede contener los tiempos de descansos recomendados entre series y ejercicios.
+    - El sistema debe tener un módulo de turnos para las actividades Recreativas, en los cuáles esto consiste en:
+=======
     El sistema debe mostrar una rutina de ejercicios a los usuarios que estï¿½n registrados a actividades de Musculaciï¿½n.
     
     El sistema debe diferenciar a los usuarios, siendo estos: Coach, Cliente y Administrador.
@@ -32,11 +41,63 @@
     En caso de plan Global, el sistema debe tomar en cuenta los siguientes criterios:
     
     - El sistema debe tener un mï¿½dulo de turnos, en los cuï¿½les esto consiste en:
+>>>>>>> 8598e665d3120591b31b87b07a1270d259bd37e7
         - Un profesor/coach asignado.
         - Una actividad Recreativa.
         - Una sucursal.
         - Un listado limitado de Clientes/Alumnos.
     
+<<<<<<< HEAD
+    El sistema debe diferenciar a los usuarios, siendo estos: Coach, Cliente y Administrador.
+    
+    - Coach:
+        
+        El sistema debe permitir que el Coach pueda manipular las rutinas de ejercicios de los clientes de Musculación.
+        
+        *¿Personal Trainer?*
+        
+    - Cliente:
+        
+        El sistema debe permitir que el cliente pueda modificar su suscripción.
+        
+        En los casos de que el cliente modifique su suscripción, el cobro debe aplicarse al abono del próximo mes.
+        
+        En las actividades Recreativas, el sistema debe permitir al usuario agendar turnos en su actividad deseada.
+        
+    - Administrador:
+    - Para la creación de la cuenta, el sistema pedirá que complete:
+        - Nombre completo
+        - Fecha de nacimiento
+            - *¿En caso de que sea un menor de 16 años, el sistema no debe permitir la creación del usuario?*
+        - Correo electrónico
+        - Número de DNI
+        - Contraseña
+        - En caso de que sea un Cliente, un apto físico al día de un médico.
+            - Dicho apto físico tiene una fecha de caducidad por un año (365 días).
+            - Para facilitar el uso, el sistema debe indicarle al usuario cuál es la fecha de caducidad del apto físico.
+            - El sistema debe notificar al usuario con un tiempo de antelación de que su apto físico esta por llegar a la fecha de caducidad.
+            - El sistema debe verificar anualmente la fecha de subida del apto físico del cliente y corroborar que no esté caducado.
+            - En caso de que el apto físico del cliente esté caducado, el sistema debe bloquear el acceso del cliente al sistema Gym&Tonic.
+    
+    El sistema debe permitir el cobro de suscripciones a los usuarios.
+    
+    El sistema debe permitir diferenciar entre las sucursales de gimnasio que ofrece la compañía.
+    
+    El sistema debe listar las distintas actividades Recreativas.
+    
+    El sistema debe diferenciar entre dos suscripciones: Plan Local y Plan Total. 
+    
+    - En caso de plan Local, el sistema debe tomar en cuenta los siguientes criterios:
+        - El cliente sólo puede agendar turnos Recreativos de una sola sucursal.
+        - El cliente sólo puede asistir a una sola sucursal.
+        - El sistema debe detectar y señalizar cuando el cliente quiera acceder a una sucursal no válida.
+    - En caso de plan Global, el sistema debe tomar en cuenta los siguientes criterios:
+        - El cliente puede agendar turnos y asistir en cualquier sucursal de la compañía.
+    
+    El sistema debe poder utilizarse tanto en la computadora como en el teléfono celular.
+    
+- Usuario
+=======
     El sistema debe poder utilizarse tanto en la computadora como en el telï¿½fono celular.
     
 - Usuario
@@ -50,3 +111,4 @@
 
 
     test
+>>>>>>> 8598e665d3120591b31b87b07a1270d259bd37e7
