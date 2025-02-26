@@ -4,8 +4,9 @@
     
     El sistema debe permitir el registro de nuevos usuarios.
     
-    El sistema debe segmentar las actividades que realiza el gimnasio. Principalmente, va a estar segmentado por dos partes: Musculación y Recreativo.
+    El sistema debe segmentar las actividades que realiza el gimnasio. Principalmente, va a estar segmentado por dos partes: Musculaciï¿½n y Recreativo.
     
+<<<<<<< HEAD
     - El sistema debe mostrar una rutina de ejercicios a los usuarios que estén registrados a actividades de Musculación y tengan una rutina asignada.
         - El sistema debe contener un listado de ejercicios segmentado por los distintos grupos musculares.
         - El sistema debe permitir definir la cantidad de repeticiones y series que se debe realizar en cada ejercicio.
@@ -13,11 +14,40 @@
         - El sistema debe permitir al usuario visualizar únicamente la/s rutina de ejercicios que tiene asignada.
         - El listado de ejercicios puede contener los tiempos de descansos recomendados entre series y ejercicios.
     - El sistema debe tener un módulo de turnos para las actividades Recreativas, en los cuáles esto consiste en:
+=======
+    El sistema debe mostrar una rutina de ejercicios a los usuarios que estï¿½n registrados a actividades de Musculaciï¿½n.
+    
+    El sistema debe diferenciar a los usuarios, siendo estos: Coach, Cliente y Administrador.
+    
+    El sistema debe permitir que el Coach pueda manipular las rutinas de ejercicios de los clientes de Musculaciï¿½n.
+    
+    El sistema debe permitir el cobro de suscripciones a los usuarios.
+    
+    El sistema debe permitir que el cliente pueda modificar su suscripciï¿½n.
+    
+    El sistema debe permitir diferenciar entre las sucursales de gimnasio que ofrece la compaï¿½ï¿½a.
+    
+    El sistema debe listar las distintas actividades Recreativas.
+    
+    En las actividades Recreativas, el sistema debe permitir al usuario agendar turnos en su actividad deseada.
+    
+    El sistema debe diferenciar entre dos suscripciones: Plan Local y Plan Total. 
+    
+    En caso de plan Local, el sistema debe tomar en cuenta los siguientes criterios:
+    
+    - El cliente sï¿½lo puede asistir a una sucursal.
+    - El cliente sï¿½lo puede agendar turnos Recreativos de esa misma sucursal.
+    
+    En caso de plan Global, el sistema debe tomar en cuenta los siguientes criterios:
+    
+    - El sistema debe tener un mï¿½dulo de turnos, en los cuï¿½les esto consiste en:
+>>>>>>> 8598e665d3120591b31b87b07a1270d259bd37e7
         - Un profesor/coach asignado.
         - Una actividad Recreativa.
         - Una sucursal.
         - Un listado limitado de Clientes/Alumnos.
     
+<<<<<<< HEAD
     El sistema debe diferenciar a los usuarios, siendo estos: Coach, Cliente y Administrador.
     
     - Coach:
@@ -67,3 +97,18 @@
     El sistema debe poder utilizarse tanto en la computadora como en el teléfono celular.
     
 - Usuario
+=======
+    El sistema debe poder utilizarse tanto en la computadora como en el telï¿½fono celular.
+    
+- Usuario
+    
+    Los usuarios deben poder sacar turno de su actividad que quiera hacer en el gimnasio.
+    
+    En los casos de que el cliente modifique su suscripciï¿½n, el cobro debe aplicarse al abono del prï¿½ximo mes.
+    
+    - El cliente puede asistir a cualquier sucursal de la empresa.
+    - El cliente puede agendar turnos Recreativos de cualquier sucursal de la empresa.
+
+
+    test
+>>>>>>> 8598e665d3120591b31b87b07a1270d259bd37e7
